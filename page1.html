@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+    <style>
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+.full-screen-image {
+  background-image: url('flowers/image 05.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height:90vh;
+  width: 100%;
+  image-rendering: pixelated;
+}
+
+@media (max-width: 576px) { /* Adjusted max-width for small devices */
+  .full-screen-image {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+  }
+}
+
+
+.navbar-nav .nav-link:hover {
+    background-color: #451a45;; /* Set the background color for hovered links */
+    color: white !important; /* Set the text color for hovered links */
+
+  }
+
+
+.card h5{
+  font-weight: bolder;
+  font-size: 30px;
+  color: #451a45;
+}
+
+
+  .footer-links a,
+.footer-links a:visited {
+    color: white !important;
+}
+
+
+.social-icons {
+    margin-top: 20px;
+  }
+
+  .social-icon {
+    margin-right: 10px; /* Adjust as needed */
+    font-size: 28px; /* Adjust icon size */
+    color: white;
+
+
+  }
+
+  .card{
+    padding: 10px;
+  }
+
+  button:hover {
+    background-color:#451a45; 
+    color: white;
+}
+
+ .animated-image {
+            animation: scaleUp 5s ease-in-out infinite;
+        }
+
+        @keyframes scaleUp {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+    </style>
+
+
+   
+</head>
+<body>
+
+
+ <nav  class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <img style="height: 60px; width:140px;" src="flowers/image02.png" class="img-thumbnail" alt="...">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div  class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 mx-auto my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a style="color:#451a45; font-weight: bolder;" class="nav-link active" aria-current="page" href="page1.html">Home</a>
+        </li>
+
+          <li class="nav-item">
+          <a style="color:#451a45; font-weight: bolder;" class="nav-link active" aria-current="page" href="page2.html">about us</a>
+        </li>
+
+          <li class="nav-item">
+          <a style="color: #451a45; font-weight: bolder;" class="nav-link active" aria-current="page" href="page3.html">services</a>
+        </li>
+
+          <li class="nav-item">
+          <a style="color: #451a45; font-weight: bolder;" class="nav-link active" aria-current="page" href="page4.html">shop</a>
+        </li>
+
+          <li class="nav-item">
+          <a style="color: #451a45; font-weight: bolder;" class="nav-link active" aria-current="page" href="submit_form.html">contact us</a>
+        </li>
+        
+        
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" style="background-color: #451a45; color:white; border-color:white;" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="full-screen-image">
+    <div class="container">
+        <div class="row justify-content"> <!-- Center the content -->
+            <div class="col-lg-6 col-md-8 col-sm-10 col-12"><br><br><br> <!-- Adjust column sizes for responsiveness -->
+                <h1 style="font-size: 6vw; text-align: left; color: #451a45; font-family: serif; font-weight: bolder;">florist</h1>
+                <br>
+                <h1 style="font-size: 4vw; text-align: left; color: #451a45; font-family: serif; font-weight: bolder;">"find your dream flower bouquets"</h1>
+                <br><br>
+                <button style="padding: 10px 20px; font-size: 1.5vw; border-radius: 10px; border-color: purple; font-weight: bolder;">read more</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div style="background-color:#F5EEF8;" class="second-section">
+
+<h1 style="color: #451a45; padding: 30px;">why you select us?</h1>
+
+<p class="fs-7" style="background-color:#F5EEF8; padding:20px; text-align: justify;">
+
+Welcome to [Your Web Application Name], your ultimate destination for all your floral needs! Our platform offers a wide selection of beautiful flowers for every occasion, whether it's a birthday celebration, anniversary, wedding, or just to brighten someone's day.
+
+At [Your Web Application Name], we understand the importance of quality and freshness when it comes to flowers. That's why we partner with local florists who carefully source the freshest blooms and handcraft stunning arrangements with meticulous attention to detail. When you order from us, you can trust that your flowers will be of the highest quality and delivered with care.
+
+But why choose a florist for buying flowers? While there are many options for purchasing flowers online, working with a local florist offers several distinct advantages. 
+
+First and foremost, florists are experts in their craft. They have a deep knowledge of flowers and can help you choose the perfect blooms to suit your occasion and preferences. Whether you're looking for classic roses, exotic orchids, or seasonal blooms, a florist can provide personalized recommendations and create custom arrangements tailored to your needs.
+
+Additionally, florists offer a level of care and attention to detail that you won't find with mass-produced flowers. Each arrangement is handcrafted with precision and artistry, resulting in unique and beautiful creations that make a lasting impression.
+
+By supporting local florists, you're also supporting your community. Florists are small businesses that play an essential role in the local economy, providing jobs and contributing to the vibrancy of neighborhoods. When you choose to buy from a florist, you're not just getting beautiful flowers – you're also making a positive impact on your community.
+
+So why wait? Experience the difference of working with a local florist and elevate your floral experience with [Your Web Application Name]. Browse our selection today and let us help you celebrate life's special moments with the beauty of flowers.
+</p>
+
+
+
+<!--categories start-->
+
+<div class="card-group">
+  <div style="padding:10px;" class="card">
+    <img style="height:300px;" src="flowers/image 02.jpg" class="card-img-top animated-image" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">flower backeys</h5>
+      <p style=" text-align: justify;" class="card-text">"Discover the charm of our flower backdrops, meticulously crafted to elevate your events. Whether it's a wedding, bridal shower, or special celebration, our bespoke backdrops add a touch of natural elegance to any setting. Each design is carefully curated to complement your theme and create a picturesque backdrop for cherished moments. Let our stunning flower backdrops transform your event into a blooming paradise, leaving a lasting impression on you and your guests."</p>
+
+      <button style="background-color: #451a45;" type="button" class="btn btn-primary">more details</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <img style="height:300px;" src="flowers/image 12.jpg" class="card-img-top animated-image" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">wedding decorations</h5>
+      <p style=" text-align: justify;" class="card-text">"Transform your wedding into a floral paradise with our exquisite selection of fresh blooms. From elegant centerpieces to breathtaking bouquets, we offer the perfect floral arrangements for every aspect of your special day. Our expert florists ensure the highest quality and attention to detail, crafting stunning creations that reflect your unique style. Elevate your wedding décor with the beauty and fragrance of our flowers, creating an unforgettable ambiance for you and your guests. Trust us to deliver exceptional service and breathtaking floral designs, making your wedding day truly magical. Explore our collection today and let us bring your dream wedding vision to life with the timeless charm of flowers."</p>
+
+      
+      <button style="background-color: #451a45;" type="button" class="btn btn-primary">more details</button>
+    </div>
+   
+  </div>
+  <div class="card">
+    <img style="height:300px;" src="flowers/image 03.jpg" class="card-img-top animated-image" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">other situations</h5>
+      <p style=" text-align: justify;" class="card-text">"Whether it's a joyful celebration, a heartfelt tribute, or a simple gesture of love, our fresh flowers add beauty and meaning to every occasion. From birthdays to anniversaries, graduations to corporate events, our exquisite floral arrangements elevate every moment. With meticulous attention to detail and a passion for perfection, our expert florists create stunning designs that capture the essence of your special event. Let us help you express your emotions and create lasting memories with our vibrant and fragrant blooms. Explore our diverse collection and discover the perfect flowers to complement any occasion, making it truly unforgettable."</p>
+
+      
+      <button style="background-color: #451a45;" type="button" class="btn btn-primary">more details</button>
+    </div>
+  
+  </div>
+</div>
+
+<br>
+
+
+
+<!--categories end-->
+
+
+
+
+<!--footers-->
+
+
+</div>
+
+
+
+<div style="background-color:#451a45;" class="container-fluid">
+  <footer class="py-5">
+    <div style="color:white;" class="row footer-links">
+      <div style="color:white;" class="col-6 col-md-2 mb-3">
+        <h4>Florist</h4>
+        <i class="fas fa-map-marker-alt"></i> 
+             Florist,no 712/2,Main Street.Kandy<br><br>
+        <i class="fas fa-phone"></i>   0812345678<br><br>
+        <i class="fas fa-envelope"></i>   www.florist@gmail.com
+
+
+
+        
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+       
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form style="color:white;">
+          <h5>you can contact us here</h5>
+          <p>send your message here.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">message</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Message">
+            <button style="background-color:white; color:#451a45;" class="btn btn-primary" type="button">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p style="color:white;">&copy; 2022 Company, Inc. All rights reserved.</p>
+      
+
+<div style="color:white;" class="social-icons">
+  <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+  <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+  <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+  <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+  <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+</div>
+
+      </ul>
+    </div>
+  </footer>
+</div>
+
+
+</body>
+</html>
